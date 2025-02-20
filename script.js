@@ -20,5 +20,8 @@ function validateForm(event) {
     }
     errormessage.innerText = "";
     form.submit();
-}
+    }
+document.getElementbyId("myButton").addEventListener("click", function() {
+    document.getElementById("myText").innerText = "Error message";
+});
 form.addEventListener('submit', validateForm);
