@@ -1,3 +1,4 @@
+alert("Selamat datang di website saya!")
 // Function to validate the form
 function validateForm(event) { 
     event.preventDefault();
